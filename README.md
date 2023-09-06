@@ -12,3 +12,10 @@ First for the client as usual for a React app you must initialize the app with n
 
 For the server folder, you also must do the above except for starting the local server. This folder contains the database in the form of the file "games.sql". This file must be imported into your local PostgreSQL app and the databse started.
 In order to make the backend start, you must write the command "nodemon index" after initialising and installing all the rest.
+
+# Admin access
+To log into the admin account with all CRUD operations available, you must use this email and password:
+email: pavel.gherciu@iis.utm.md
+passowrd: pavel2001
+
+Another option is to delete all users from the database and make your own account that has the admin username.
