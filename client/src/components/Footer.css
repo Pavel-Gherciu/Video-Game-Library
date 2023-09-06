@@ -1,0 +1,64 @@
+
+
+footer{
+  height: 100vh-52px;
+  background-color: #414143;
+  color: rgb(255, 255, 255);
+}
+
+.footer-container{
+  max-width: 1750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-section1{
+  padding-top: 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #727273;
+}
+
+.linkedin-icon{
+  color: #e7e7e7;
+  width: 28px;
+  height: 35px;
+  font-size: 35px;
+}
+
+.linkedin-icon:hover{
+  color: #007aff;
+  transition: color .3s ease-in-out;
+}
+
+.footer-resources{
+  padding-top: 20px;
+}
+
+.resources-title{
+  font-size: .86em;
+  opacity: 0.4;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.resources-list{
+  list-style-type: none;
+}
+
+.resources-item{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.resources-item:hover{
+  color: #007aff;
+  transition: color .3s ease-in-out;
+  line-height: 1.5em;
+}
+
+.footer-section2{
+  padding-top: 30px;
+  font-size: 15px;
+  padding-bottom: 30px;
+}

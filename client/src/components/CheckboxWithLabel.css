@@ -1,0 +1,14 @@
+.MuiFormControlLabel-root .checkbox{
+  color: var(--textcol);
+}
+
+
+.MuiFormControlLabel-root p{
+  margin-left: 10px;
+}
+
+.MuiFormControlLabel-root .checkbox:hover{
+  background-color: rgba(255,255,255,0.16);
+  border-radius: 4px;
+  color: white;
+}

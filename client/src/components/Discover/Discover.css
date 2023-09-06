@@ -1,0 +1,131 @@
+:root{
+  --bg: rgb(18, 18, 18);
+  --font: #e7e7e7;
+  --bg_hover: #252525;
+  --bg_select: #363636;
+}
+
+header{
+  height: 100vh-52px;
+  background-color: var(--bg);
+  color: var(--font);
+}
+
+.header-container{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  max-width: 1600px;
+  display: flex;
+}
+
+
+.disc-front-container{
+  overflow: hidden;
+  display: flex;
+  width: 1152px;
+  height: 648px;
+  border-radius: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.disc-front-img{
+  height: 100%;
+  width: 100%;
+}
+
+.disc-front-img-click{
+  position: absolute;
+  left: 56px;
+  bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+.game-logo{
+  width: 260px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.game-info{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.disc-button{
+  margin-top: 30px;
+  display: flex;
+  color: rgb(0, 0, 0);
+  padding: 0px 20px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 700;
+  width: 150px;
+}
+
+.tab-container{
+  display: flex;
+  margin-left: 32px;
+}
+
+.tabs li{
+  list-style-type: none;
+  max-width: 256px;
+  max-height: 110px;
+}
+
+
+.discover-tabs{
+  display: flex;
+  padding: 12.5px 13px;
+  cursor: pointer;
+  background-color: var(--bg);
+  align-items: center;
+  border-radius: 16px;
+  margin-bottom: 3px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.discover-tabs div{
+  max-height: 52px;
+  max-width: 156px;
+  width: 156px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.discover-img{
+  display: flex;
+  height: 80px;
+  width: 60px;
+  border-radius: 8px;
+}
+
+.discover-tabs:hover{
+  background-color: var(--bg_hover);
+  transition: background-color 0.2s cubic-bezier(0.17, 0.17, 0.23, 1.00);
+}
+
+
+
+@media screen and (max-width: 960px){
+  .disc-front-container{
+    width: 80vw;
+    height: 80vh;
+  }
+}
+
+

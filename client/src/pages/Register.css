@@ -1,0 +1,131 @@
+:root{
+  --bg: rgb(18, 18, 18);
+  --textcol: rgba(255,255,255,0.72);
+}
+
+.reg-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg);
+  width: 100%;
+  height: 100vh;
+}
+
+.reg-container{
+  max-width: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px auto;
+  background-color: #202020;
+  padding: 50px 60px;
+  flex-direction: column;
+}
+
+.reg-logo{
+  width: 48px;
+  height: 48px;
+  margin-bottom: 30px;
+}
+
+.signup{
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.form{
+  max-width: 380px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.reg-textfield{
+  height: 85px;
+  color: white;
+}
+
+.reg-textfield .MuiInputBase-root{
+  color: var(--textcol);
+}
+
+.reg-textfield label {
+  border-color: var(--textcol);
+  color: var(--textcol);
+}
+
+.reg-textfield .MuiFormLabel-root.Mui-focused {
+  color: var(--textcol);
+}
+
+.reg-textfield .MuiOutlinedInput-root fieldset{
+  border-color: var(--textcol);
+}
+
+.reg-textfield .MuiOutlinedInput-root:hover fieldset{
+  border-color: var(--textcol);
+}
+
+.reg-textfield .MuiOutlinedInput-root.Mui-focused fieldset{
+  border-color: var(--textcol);
+}
+
+.reg-textfield .MuiInputLabel-asterisk{
+  color: #FFA640;
+}
+
+
+.namebox> :not(:first-child){
+  margin-left: 7.5px;
+}
+
+.namebox> :not(:last-child){
+  margin-right: 7.5px;
+}
+
+.reg-textfield .MuiIconButton-root{
+  padding: calc(20px - 0.75rem);
+  border-radius: 4px;
+  color: white;
+}
+
+.reg-textfield .MuiIconButton-root:hover{
+  background-color: rgba(255,255,255,0.16);
+  border-radius: 4px;
+  color: white;
+}
+
+
+.checkbox{
+  color: var(--textcol);
+}
+
+.checkbox span.MuiCheckbox-root{
+  color: var(--textcol) !important;
+}
+
+.checkbox .MuiFormControlLabel-label{
+  margin-left: 10px;
+}
+
+.checkbox span.MuiCheckbox-root:hover{
+  background-color: rgba(255,255,255,0.16);
+  border-radius: 4px;
+  color: white;
+}
+
+
+.reg-button{
+  min-height: 60px;
+  color: white;
+  background-color: #0074E4;
+}
+
+.reg-button{
+  background-color: rgb(40,138,232);
+}

@@ -1,0 +1,39 @@
+
+.user-wrapper{
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 1.05px;
+  margin-left: auto;
+  padding: 0 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ccc;
+  font-size: 11px;
+  height: 100%;
+  position: relative;
+}
+
+.user-icon{
+  margin-right: 8px;
+}
+
+.user-list{
+  position: absolute;
+  top: 50px;
+  left: -2px;
+  text-align: center;
+  background-color: #414143;
+  list-style-type: none;
+  min-width: 120px;
+  padding: .5em 0;
+}
+
+.user-item{
+  padding: 8px 0;
+}
+
+.user-item:hover{
+  color: #e7e7e7;
+}
