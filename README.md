@@ -16,6 +16,6 @@ In order to make the backend start, you must write the command "nodemon index" a
 # Admin access
 To log into the admin account with all CRUD operations available, you must use this email and password:
 email: pavel.gherciu@iis.utm.md
-passowrd: pavel2001
+password: pavel2001
 
 Another option is to delete all users from the database and make your own account that has the admin username.
