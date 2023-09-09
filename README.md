@@ -1,4 +1,4 @@
-# Video Game Site
+# Video Game Library
 Based loosely on Epic Games Store in terms of design.
 This project was created as part of my University practice period where I chose to learn the React framework along with the PERN stack.
 The site's functionality is mainly based on CRUD operations that can only be accesed by the admin account. It showcases various games in different categories and assigns a unique page and URL for each one.
